@@ -46,3 +46,112 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+.row3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.redactual3{
+  width: 100px;
+  background-color: red;
+}
+
+.blueactual3{
+  width: 100px;
+  background-color: blue;
+}
+
+.row4 {
+  display: flex;
+  flex: 1;
+}
+
+.redactual4{
+  width: 1260px;
+  background-color: red;
+}
+
+.blueactual4{
+  width: 100px;
+  background-color: blue;
+}
+
+.row5 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.redactual5{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.row6 {
+  display:flex;
+  flex: 1;
+}
+
+.redleft6 {
+  flex-grow: 1;
+  background-color: red;
+}
+.redright6 {
+  flex-grow: 1;
+  background-color: red;
+}
+.blueactual6 {
+  width: 100px;
+  background-color: blue;
+}
+
+.row7 {
+  display:flex;
+  flex: 1;
+}
+
+.bluestrips {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.red7 {
+  width: 200px;
+  background-color: red;
+}
+.bluetop {
+  height: 15px;
+  background-color: blue;
+}
+.bluebottom {
+  height: 15px;
+  background-color: blue;
+}
+
+.dummy{
+  height: 15px;
+  background-color: green;
+}
+
+.orangemain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.orange {
+  width: 80px;
+  background-color: orange;
+}
+
+
+.orange9 {
+  width: 250px;
+  background-color: orange;
+}
+
+

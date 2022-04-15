@@ -1,0 +1,28 @@
+header {
+    background-color: black;
+    color: blue;
+    padding: 20px 40px;
+}
+
+.article {
+    background-color: rgb(70, 148, 63);
+    color: black;
+
+    padding: 80px 80px;
+}
+
+.sidebar {
+    background-color: rgb(150, 45, 45);
+    color: black;
+    margin: 10px;
+    padding: 20px 100px;
+}
+
+footer {
+    background-color: black;
+    color: blue;
+    padding: 20px 40px;
+}
+
+
+

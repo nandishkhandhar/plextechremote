@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="description" content="I dont know what I'm doing">
+        <meta name="author" content="Nandish Khandhar">
+        <title>Learning something new</title>
+        <link rel="stylesheet" href="activity.css">
     </head>
     <body>
+        <header id="header">
+            <h1>HEADER</h1>
+            <button onclick="lightmode()">light-mode</button>
+            <button onclick="darkmode()">dark-mode</button>
+            <script>
+                function lightmode() {
+                    var headervar = document.getElementById("header");
+                    var footervar = document.getElementById("footer");
+                    var articlevar = document.getElementById("article");
+                    var sidebarvar = document.getElementById("sidebar");
+
+                    headervar.style.backgroundColor='#FFFFFF';
+                    sidebarvar.style.backgroundColor="#ffcccb";
+                    footervar.style.backgroundColor='#FFFFFF';
+                    articlevar.style.backgroundColor="#90EE90";
+                }
+                function darkmode() {
+                    var headervar = document.getElementById("header");
+                    var footervar = document.getElementById("footer");
+                    var articlevar = document.getElementById("article");
+                    var sidebarvar = document.getElementById("sidebar");
+                    
+                    headervar.style.backgroundColor='#000000';
+                    sidebarvar.style.backgroundColor="#860000";
+                    footervar.style.backgroundColor="#000000"
+                    articlevar.style.backgroundColor="#006400";
+                }
+            </script>
+        </header>
+       
+            <div class="sidebar" id="sidebar">
+                <h1>sidebar</h1>
+            </div>
+    
+            <div class="article" id="article">
+                <h1>article</h1>
+                <div class="content">
+                    <h4>This is where the magic happens</h4>
+                </div>
+                <div class="image">
+                    <img src="https://thumbs.dreamstime.com/b/young-illusionist-magician-fortune-teller-predicting-future-crystal-sphere-young-illusionist-magician-fortune-teller-108674497.jpg"
+                        width="400"
+                        height="300">
+                </div>
+
+        </div>
         
+        <footer id="footer">
+            <h1>FOOTER</h1>
+        </footer>
     </body>
 </html>
